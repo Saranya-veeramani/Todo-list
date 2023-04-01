@@ -1,0 +1,27 @@
+.todo-form-container {
+    margin-bottom: 20px;
+  }
+  
+  .todo-form-container form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-form-container input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .todo-form-container button[type="submit"] {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
